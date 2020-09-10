@@ -1,15 +1,7 @@
 
 
-Ethereal, which combines a robust side-scrolling framework of my own creation (with various
-"scroll-assist" features like drag/momentum scrolling, keyboard shortcuts, etc.) with a unique
-look and feel, a lightbox gallery, tons of customization options, and, of course, full
-responsiveness. Hope you dig it :)
 
-
-
-(* = not included)
-
-
+The basics before trying something similar
 
 Instructions:
 
@@ -82,14 +74,12 @@ Instructions:
 	Major Elements
 	==============
 
-		Most of Ethereal's elements are pretty much what you'd expect, but there are a handful
-		of "major" ones that warrant a bit more explanation:
 
 
 		Panel
 		------
 
-			The primary building block of Ethereal.
+			The primary building block of this website.
 
 			HTML
 
@@ -275,44 +265,7 @@ Instructions:
 				</section>
 
 
-		Gallery
-		-------
-
-			A lightbox-enabled gallery.
-
-			HTML
-
-				<div class="gallery">
-					<a href="(full image URL)" class="image (image modifiers) (span modifier)" data-position="(image position modifier)">
-						<img src="(thumbnail image URL)" alt="" />
-					</a>
-					<a href="(full image URL)" class="image (image modifiers) (span modifier)" data-position="(image position modifier)">
-						<img src="(thumbnail image URL)" alt="" />
-					</a>
-					<a href="(full image URL)" class="image (image modifiers) (span modifier)" data-position="(image position modifier)">
-						<img src="(thumbnail image URL)" alt="" />
-					</a>
-					<div class="group (span modifier)">
-						<a href="(full image URL)" class="image (image modifiers) (span modifier)" data-position="(image position modifier)">
-							<img src="(thumbnail image URL)" alt="" />
-						</a>
-						<a href="(full image URL)" class="image (image modifiers) (span modifier)" data-position="(image position modifier)">
-							<img src="(thumbnail image URL)" alt="" />
-						</a>
-						<a href="(full image URL)" class="image (image modifiers) (span modifier)" data-position="(image position modifier)">
-							<img src="(thumbnail image URL)" alt="" />
-						</a>
-						<a href="(full image URL)" class="image (image modifiers) (span modifier)" data-position="(image position modifier)">
-							<img src="(thumbnail image URL)" alt="" />
-						</a>
-						...
-					</div>
-					...
-				</div>
-
-				Note: The "group" element creates a dual-row group of images. Images inside this group will
-				automatically wrap to the next row when they exceed its width (as defined by its span modifier).
-				You can have as many groups in a gallery as you like.
+		
 
 			Modifiers
 
@@ -333,39 +286,14 @@ Instructions:
 					left           Position image along the left edge.
 					center         Position image in the center.
 
-			Example
-
-				<div class="gallery">
-					<a href="/images/thumbnails/01.jpg" class="image filtered span-2" data-position="center">
-						<img src="/images/fulls/01.jpg" alt="" />
-					</a>
-					<a href="/images/thumbnails/02.jpg" class="image filtered span-4" data-position="center">
-						<img src="/images/fulls/02.jpg" alt="" />
-					</a>
-					<div class="group span-4">
-						<a href="/images/thumbnails/03.jpg" class="image filtered span-2" data-position="center">
-							<img src="/images/fulls/03.jpg" alt="" />
-						</a>
-						<a href="/images/thumbnails/04.jpg" class="image filtered span-2" data-position="center">
-							<img src="/images/fulls/04.jpg" alt="" />
-						</a>
-						<a href="/images/thumbnails/05.jpg" class="image filtered span-2" data-position="center">
-							<img src="/images/fulls/05.jpg" alt="" />
-						</a>
-						<a href="/images/thumbnails/06.jpg" class="image filtered span-2" data-position="center">
-							<img src="/images/fulls/06.jpg" alt="" />
-						</a>
-					</div>
-				</div>
-
+			
 
 Credits:
 
-	Demo Images:
-		Unsplash (unsplash.com)
+	
 
 	Icons:
-		Font Awesome (fontawesome.io)
+		Font Awesome 5 (fontawesome.io)
 
 	Other:
 		jQuery (jquery.com)
